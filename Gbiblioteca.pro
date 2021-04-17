@@ -10,17 +10,20 @@ CONFIG += c++11
 
 SOURCES += \
     cadlivro.cpp \
+    cadusuario.cpp \
     login.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
     cadlivro.h \
+    cadusuario.h \
     login.h \
     mainwindow.h
 
 FORMS += \
     cadlivro.ui \
+    cadusuario.ui \
     login.ui \
     mainwindow.ui
 

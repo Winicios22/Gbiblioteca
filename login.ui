@@ -51,7 +51,7 @@
      <x>200</x>
      <y>220</y>
      <width>231</width>
-     <height>101</height>
+     <height>131</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -74,6 +74,13 @@
     </item>
     <item>
      <widget class="QKeySequenceEdit" name="keySequenceEdit"/>
+    </item>
+    <item>
+     <widget class="QCommandLinkButton" name="commandLinkButton">
+      <property name="text">
+       <string>Cadastro</string>
+      </property>
+     </widget>
     </item>
    </layout>
   </widget>

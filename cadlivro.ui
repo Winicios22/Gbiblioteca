@@ -19,7 +19,7 @@
      <x>160</x>
      <y>310</y>
      <width>401</width>
-     <height>131</height>
+     <height>160</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -42,6 +42,16 @@
     </item>
     <item>
      <widget class="QLineEdit" name="lineEdit_2"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Edição</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_3"/>
     </item>
     <item>
      <widget class="QPushButton" name="pushButton">

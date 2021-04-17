@@ -48,7 +48,7 @@
      <item>
       <widget class="QPushButton" name="pushButton_4">
        <property name="text">
-        <string>Login</string>
+        <string>Cadastro / Login</string>
        </property>
       </widget>
      </item>
