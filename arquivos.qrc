@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/imagens">
+        <file>imagens/adicionar-usuario.png</file>
+        <file>imagens/biblioteca2.png</file>
+        <file>imagens/Gbiblioteca Logotipo.png</file>
+    </qresource>
+</RCC>

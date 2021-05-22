@@ -78,7 +78,7 @@
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>260</x>
+     <x>270</x>
      <y>130</y>
      <width>141</width>
      <height>131</height>
@@ -88,7 +88,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>../../../../../Downloads/estude.png</pixmap>
+    <pixmap>imagens/adicionar-usuario.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>

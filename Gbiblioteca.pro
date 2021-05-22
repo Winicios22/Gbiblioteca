@@ -13,21 +13,27 @@ SOURCES += \
     cadusuario.cpp \
     login.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    telaadm.cpp
 
 HEADERS += \
     cadlivro.h \
     cadusuario.h \
     login.h \
-    mainwindow.h
+    mainwindow.h \
+    telaadm.h
 
 FORMS += \
     cadlivro.ui \
     cadusuario.ui \
     login.ui \
-    mainwindow.ui
+    mainwindow.ui \
+    telaadm.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    arquivos.qrc

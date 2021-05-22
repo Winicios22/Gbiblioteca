@@ -1,8 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include <QMessageBox>
-#include "login.h"
-#include "cadlivro.h"
+#include "telaADM.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -17,20 +16,18 @@ MainWindow::~MainWindow()
 }
 
 
-void MainWindow::on_pushButton_3_clicked()
+
+
+void MainWindow::on_botaoLogin_clicked()
 {
-    QMessageBox::about(this,"Importante","Função permitida só para administradores");
-    CadLivro form;
-    form.exec();
+    QString email = ui->campoEmail->text();
+    QString senha = ui->campoSenha->text();
+
+    if(email == "ADM" && senha == "123"){
+        telaADM form;
+        form.exec();
+    }else{
+        QMessageBox::warning(this,"Login", "invaido");
+    }
 }
 
-void MainWindow::on_pushButton_2_clicked()
-{
-    QMessageBox::about(this,"Importante","Função permitida só para administradores");
-}
-
-void MainWindow::on_pushButton_4_clicked()
-{
-    Login form;
-    form.exec();
-}
