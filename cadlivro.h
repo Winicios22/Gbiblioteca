@@ -15,6 +15,9 @@ public:
     explicit CadLivro(QWidget *parent = nullptr);
     ~CadLivro();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::CadLivro *ui;
 };
