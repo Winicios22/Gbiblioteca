@@ -13,8 +13,16 @@ CadUsuario::~CadUsuario()
     delete ui;
 }
 
+QString emailUsuario;
+QString senhaUsuario;
+
 void CadUsuario::on_pushButton_clicked()
 {
+    QString nomeUsuario = ui->nomeUsuario->text();
+    QString enderecoUsuario = ui->enderecoUsuario->text();
+    emailUsuario = ui->emailUsuario->text();
+    QString numeroUsuario = ui->bumeroDaCasa->text();
+    senhaUsuario = ui->SenhaUsuario->text();
 
 }
 

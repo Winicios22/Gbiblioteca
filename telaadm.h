@@ -15,6 +15,9 @@ public:
     explicit telaADM(QWidget *parent = nullptr);
     ~telaADM();
 
+private slots:
+    void on_pushButton_3_clicked();
+
 private:
     Ui::telaADM *ui;
 };

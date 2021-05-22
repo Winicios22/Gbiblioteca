@@ -3,6 +3,8 @@
 #include <QMessageBox>
 #include "telaADM.h"
 #include "cadusuario.h"
+#include "cadusuario.cpp"
+#include "telausuario.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -27,6 +29,10 @@ void MainWindow::on_botaoLogin_clicked()
     if(email == "ADM" && senha == "123"){
         telaADM form;
         form.exec();
+    }
+    if(email == emailUsuario && senha == senhaUsuario){
+        telaUsuario form3;
+        form3.exec();
     }else{
         QMessageBox::warning(this,"Login", "invaido");
     }

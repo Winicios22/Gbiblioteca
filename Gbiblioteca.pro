@@ -13,19 +13,22 @@ SOURCES += \
     cadusuario.cpp \
     main.cpp \
     mainwindow.cpp \
-    telaadm.cpp
+    telaadm.cpp \
+    telausuario.cpp
 
 HEADERS += \
     cadlivro.h \
     cadusuario.h \
     mainwindow.h \
-    telaadm.h
+    telaadm.h \
+    telausuario.h
 
 FORMS += \
     cadlivro.ui \
     cadusuario.ui \
     mainwindow.ui \
-    telaadm.ui
+    telaadm.ui \
+    telausuario.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
