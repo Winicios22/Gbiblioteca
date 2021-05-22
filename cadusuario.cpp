@@ -12,3 +12,9 @@ CadUsuario::~CadUsuario()
 {
     delete ui;
 }
+
+void CadUsuario::on_pushButton_clicked()
+{
+
+}
+

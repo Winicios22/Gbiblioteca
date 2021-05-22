@@ -11,7 +11,6 @@ CONFIG += c++11
 SOURCES += \
     cadlivro.cpp \
     cadusuario.cpp \
-    login.cpp \
     main.cpp \
     mainwindow.cpp \
     telaadm.cpp
@@ -19,14 +18,12 @@ SOURCES += \
 HEADERS += \
     cadlivro.h \
     cadusuario.h \
-    login.h \
     mainwindow.h \
     telaadm.h
 
 FORMS += \
     cadlivro.ui \
     cadusuario.ui \
-    login.ui \
     mainwindow.ui \
     telaadm.ui
 

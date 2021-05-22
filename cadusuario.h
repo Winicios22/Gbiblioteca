@@ -15,6 +15,9 @@ public:
     explicit CadUsuario(QWidget *parent = nullptr);
     ~CadUsuario();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::CadUsuario *ui;
 };

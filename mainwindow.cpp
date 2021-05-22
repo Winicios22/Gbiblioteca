@@ -2,6 +2,7 @@
 #include "ui_mainwindow.h"
 #include <QMessageBox>
 #include "telaADM.h"
+#include "cadusuario.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -29,5 +30,12 @@ void MainWindow::on_botaoLogin_clicked()
     }else{
         QMessageBox::warning(this,"Login", "invaido");
     }
+}
+
+
+void MainWindow::on_commandLinkButton_clicked()
+{
+    CadUsuario form2;
+    form2.exec();
 }
 
