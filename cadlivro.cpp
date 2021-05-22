@@ -24,3 +24,13 @@ void CadLivro::on_pushButton_clicked()
     QMessageBox::information(this,"Dados cadastrados com sucesso \n", "Informaçoes salvas:\n Nome do livro: "+nomeLivro+" \n Nome do autor: "+nomeAutor+"\n Edição do livro: "+nomeEdicao);
 }
 
+
+void CadLivro::on_pushButton_2_clicked()
+{
+    ui->campoNomeDoLivro->clear();
+    ui->campoNomeDoAutor->clear();
+    ui->campoEdicao->clear();
+
+    ui->campoNomeDoLivro->setFocus();
+}
+
