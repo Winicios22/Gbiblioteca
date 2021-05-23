@@ -3,5 +3,13 @@
         <file>imagens/adicionar-usuario.png</file>
         <file>imagens/biblioteca2.png</file>
         <file>imagens/Gbiblioteca Logotipo.png</file>
+        <file>imagens/abra-o-livro.png</file>
+        <file>imagens/aperto-de-mao (1).png</file>
+        <file>imagens/aperto-de-mao.png</file>
+        <file>imagens/estante (1).png</file>
+        <file>imagens/estante.png</file>
+        <file>imagens/mesa (1).png</file>
+        <file>imagens/mesa.png</file>
     </qresource>
+    <qresource prefix="/imagens2"/>
 </RCC>
