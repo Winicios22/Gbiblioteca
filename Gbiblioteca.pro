@@ -13,6 +13,7 @@ SOURCES += \
     cadusuario.cpp \
     main.cpp \
     mainwindow.cpp \
+    relatoriolivros.cpp \
     telaadm.cpp \
     telausuario.cpp
 
@@ -20,6 +21,7 @@ HEADERS += \
     cadlivro.h \
     cadusuario.h \
     mainwindow.h \
+    relatoriolivros.h \
     telaadm.h \
     telausuario.h
 
@@ -27,6 +29,7 @@ FORMS += \
     cadlivro.ui \
     cadusuario.ui \
     mainwindow.ui \
+    relatoriolivros.ui \
     telaadm.ui \
     telausuario.ui
 
