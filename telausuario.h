@@ -15,6 +15,9 @@ public:
     explicit telaUsuario(QWidget *parent = nullptr);
     ~telaUsuario();
 
+private slots:
+    void on_pushButton_3_clicked();
+
 private:
     Ui::telaUsuario *ui;
 };

@@ -1,5 +1,6 @@
 #include "telausuario.h"
 #include "ui_telausuario.h"
+#include "relatoriolivros.h"
 
 telaUsuario::telaUsuario(QWidget *parent) :
     QDialog(parent),
@@ -12,3 +13,10 @@ telaUsuario::~telaUsuario()
 {
     delete ui;
 }
+
+void telaUsuario::on_pushButton_3_clicked()
+{
+    RelatorioLivros form;
+    form.exec();
+}
+
