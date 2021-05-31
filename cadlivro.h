@@ -16,9 +16,8 @@ public:
     ~CadLivro();
 
 private slots:
-    void on_pushButton_clicked();
 
-    void on_pushButton_2_clicked();
+    void on_salvar_clicked();
 
 private:
     Ui::CadLivro *ui;
