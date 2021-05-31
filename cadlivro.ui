@@ -14,7 +14,7 @@
    <string>Cadastro de livro</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
-   <item row="4" column="1" colspan="3">
+   <item row="4" column="1" colspan="4">
     <widget class="QPlainTextEdit" name="plainTextEdit"/>
    </item>
    <item row="0" column="2">
@@ -30,7 +30,7 @@
      </property>
     </spacer>
    </item>
-   <item row="2" column="3">
+   <item row="2" column="4">
     <spacer name="horizontalSpacer_2">
      <property name="orientation">
       <enum>Qt::Horizontal</enum>
@@ -66,10 +66,10 @@
      </property>
     </widget>
    </item>
-   <item row="5" column="2">
-    <widget class="QPushButton" name="salvar">
+   <item row="3" column="1">
+    <widget class="QLabel" name="label">
      <property name="text">
-      <string>Salvar</string>
+      <string>Adicionar Livros:</string>
      </property>
     </widget>
    </item>
@@ -86,14 +86,14 @@
      </property>
     </spacer>
    </item>
-   <item row="3" column="1">
-    <widget class="QLabel" name="label">
+   <item row="5" column="1">
+    <widget class="QPushButton" name="salvar">
      <property name="text">
-      <string>Adicionar Livros:</string>
+      <string>Salvar</string>
      </property>
     </widget>
    </item>
-   <item row="5" column="3">
+   <item row="5" column="4">
     <widget class="QPushButton" name="pushButton">
      <property name="text">
       <string>Atualizar</string>

@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>652</width>
-    <height>525</height>
+    <height>567</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -95,20 +95,6 @@
       <widget class="QPushButton" name="pushButton_3">
        <property name="text">
         <string>Cadastrar Livro</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="pushButton_2">
-       <property name="text">
-        <string>Remover Livro</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="pushButton">
-       <property name="text">
-        <string>Lista de Livros</string>
        </property>
       </widget>
      </item>

@@ -16,6 +16,7 @@ SOURCES += \
     relatoriolivros.cpp \
     selecionarlivro.cpp \
     telaadm.cpp \
+    teladepedidos.cpp \
     telausuario.cpp
 
 HEADERS += \
@@ -25,6 +26,7 @@ HEADERS += \
     relatoriolivros.h \
     selecionarlivro.h \
     telaadm.h \
+    teladepedidos.h \
     telausuario.h
 
 FORMS += \
@@ -34,6 +36,7 @@ FORMS += \
     relatoriolivros.ui \
     selecionarlivro.ui \
     telaadm.ui \
+    teladepedidos.ui \
     telausuario.ui
 
 # Default rules for deployment.
