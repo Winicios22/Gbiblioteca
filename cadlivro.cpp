@@ -33,3 +33,19 @@ void CadLivro::on_salvar_clicked()
     arquivo.close();
 }
 
+
+void CadLivro::on_pushButton_clicked()
+{
+    QString local="C:/Users/Winicios/Documents/Bear/Bear_Code/Gbiblioteca/arquivos do programa";
+    QString nome="Livros.txt";
+    QFile arquivo(local+nome);
+    if(!arquivo.open(QFile::ReadOnly|QFile::Text)){
+        QMessageBox::warning(this,"ERRO","Erro ao abrir o arquivo");
+    }
+    QTextStream saida(&arquivo);
+    QString texto=saida.readAll();
+    ui->plainTextEdit->setPlainText(texto);
+    arquivo.flush();
+    arquivo.close();
+}
+
