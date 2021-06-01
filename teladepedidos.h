@@ -15,6 +15,9 @@ public:
     explicit TelaDePedidos(QWidget *parent = nullptr);
     ~TelaDePedidos();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::TelaDePedidos *ui;
 };

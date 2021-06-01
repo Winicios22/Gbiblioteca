@@ -31,10 +31,18 @@ void SelecionarLivro::on_pushButton_2_clicked()
     arquivo.close();
 }
 
-QString nomeDoLivro;
-
 void SelecionarLivro::on_salvar_clicked()
 {
-    nomeDoLivro = ui->campoomeLivro->text();
+    QString local2="C:/Users/Winicios/Documents/Bear/Bear_Code/Gbiblioteca/arquivos do programa";
+    QString nome2="Pedidos.txt";
+    QFile arquivo2(local2+nome2);
+    if(!arquivo2.open(QFile::WriteOnly|QFile::Text)){
+        QMessageBox::warning(this,"ERRO","Erro ao abrir o arquivo");
+    }
+    QTextStream saida2(&arquivo2);
+    QString texto2=ui->plainTextEdit_2->toPlainText();
+    saida2 << texto2;
+    arquivo2.flush();
+    arquivo2.close();
 }
 
