@@ -15,7 +15,7 @@ SOURCES += \
     mainwindow.cpp \
     relatoriolivros.cpp \
     selecionarlivro.cpp \
-    telaadm.cpp \
+    telaadm2.cpp \
     teladepedidos.cpp \
     telausuario.cpp
 
@@ -25,7 +25,7 @@ HEADERS += \
     mainwindow.h \
     relatoriolivros.h \
     selecionarlivro.h \
-    telaadm.h \
+    telaadm2.h \
     teladepedidos.h \
     telausuario.h
 
@@ -35,7 +35,7 @@ FORMS += \
     mainwindow.ui \
     relatoriolivros.ui \
     selecionarlivro.ui \
-    telaadm.ui \
+    telaadm2.ui \
     teladepedidos.ui \
     telausuario.ui
 

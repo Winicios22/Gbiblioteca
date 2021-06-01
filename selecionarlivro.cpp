@@ -31,3 +31,10 @@ void SelecionarLivro::on_pushButton_2_clicked()
     arquivo.close();
 }
 
+QString nomeDoLivro;
+
+void SelecionarLivro::on_salvar_clicked()
+{
+    nomeDoLivro = ui->campoomeLivro->text();
+}
+

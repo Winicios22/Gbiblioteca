@@ -1,7 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include <QMessageBox>
-#include "telaADM.h"
+#include "telaadm2.h"
 #include "cadusuario.h"
 #include "cadusuario.cpp"
 #include "telausuario.h"
@@ -27,7 +27,7 @@ void MainWindow::on_botaoLogin_clicked()
     QString senha = ui->campoSenha->text();
 
     if(email == "ADM" && senha == "123"){
-        telaADM form;
+        TelaAdm2 form;
         form.exec();
     }
     if(email == emailUsuario && senha == senhaUsuario){
