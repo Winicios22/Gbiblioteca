@@ -14,17 +14,27 @@
    <string>Dialog</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
-   <item row="0" column="1">
-    <widget class="QLabel" name="label_2">
+   <item row="7" column="1">
+    <widget class="QPushButton" name="atualizarListaPedidos">
      <property name="text">
-      <string>Lista de Livros:</string>
+      <string>Atualizar lista de pedidos</string>
      </property>
     </widget>
    </item>
-   <item row="3" column="1">
+   <item row="3" column="1" rowspan="2">
     <widget class="QLabel" name="label">
      <property name="text">
-      <string>Digite o nome do livro para selecionalo:</string>
+      <string>Digite o nome do livro para selecionalo sequido de seu nome:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1" colspan="2">
+    <widget class="QPlainTextEdit" name="campoDeLivros"/>
+   </item>
+   <item row="5" column="1">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>Exemplo: nome do livro / seu nome.</string>
      </property>
     </widget>
    </item>
@@ -35,18 +45,22 @@
      </property>
     </widget>
    </item>
-   <item row="1" column="1" colspan="2">
-    <widget class="QPlainTextEdit" name="plainTextEdit"/>
-   </item>
-   <item row="5" column="1">
-    <widget class="QPlainTextEdit" name="plainTextEdit_2"/>
-   </item>
-   <item row="6" column="1">
-    <widget class="QPushButton" name="salvar">
+   <item row="8" column="1">
+    <widget class="QPushButton" name="registrarPedido">
      <property name="text">
-      <string>salvar</string>
+      <string>Registrar pedido</string>
      </property>
     </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Lista de Livros:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1">
+    <widget class="QPlainTextEdit" name="campoDePedidos"/>
    </item>
   </layout>
  </widget>

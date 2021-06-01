@@ -20,6 +20,10 @@ private slots:
 
     void on_salvar_clicked();
 
+    void on_pushButton_clicked();
+
+    void on_atualizarListaPedidos_clicked();
+
 private:
     Ui::SelecionarLivro *ui;
 };
