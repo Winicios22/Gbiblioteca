@@ -15,6 +15,13 @@ public:
     explicit SelecaoDeLivros2(QWidget *parent = nullptr);
     ~SelecaoDeLivros2();
 
+private slots:
+    void on_atualizarLivros_clicked();
+
+    void on_atualizarPedidos_clicked();
+
+    void on_registrarPedido_clicked();
+
 private:
     Ui::SelecaoDeLivros2 *ui;
 };

@@ -1,6 +1,9 @@
 #include "teladepedidos.h"
 #include "ui_teladepedidos.h"
-#include "selecionarlivro.cpp"
+#include "QMessageBox"
+#include <QFile>
+#include <QTextStream>
+#include <QMessageBox>
 
 TelaDePedidos::TelaDePedidos(QWidget *parent) :
     QDialog(parent),
