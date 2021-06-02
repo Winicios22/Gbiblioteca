@@ -29,10 +29,6 @@ void MainWindow::on_botaoLogin_clicked()
     if(email == "ADM" && senha == "123"){
         TelaAdm2 form;
         form.exec();
-    }
-    if(email == emailUsuario && senha == senhaUsuario){
-        telaUsuario form3;
-        form3.exec();
     }else{
         QMessageBox::warning(this,"Login", "invaido");
     }
@@ -41,7 +37,7 @@ void MainWindow::on_botaoLogin_clicked()
 
 void MainWindow::on_commandLinkButton_clicked()
 {
-    CadUsuario form2;
-    form2.exec();
+    telaUsuario form3;
+    form3.exec();
 }
 
