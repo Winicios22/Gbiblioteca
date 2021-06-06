@@ -12,3 +12,11 @@ admOpcoes::~admOpcoes()
 {
     delete ui;
 }
+QString emailadm = "ADM";
+QString senhaadm = "123";
+void admOpcoes::on_salvar_clicked()
+{
+    emailadm=ui->campoemail->text();
+    senhaadm=ui->camposenha->text();
+}
+

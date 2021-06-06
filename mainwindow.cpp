@@ -5,6 +5,8 @@
 #include "cadusuario.h"
 #include "cadusuario.cpp"
 #include "telausuario.h"
+#include "admopcoes.h"
+#include "admopcoes.cpp"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -26,7 +28,7 @@ void MainWindow::on_botaoLogin_clicked()
     QString email = ui->campoEmail->text();
     QString senha = ui->campoSenha->text();
 
-    if(email == "ADM" && senha == "123"){
+    if(email == emailadm && senha == senhaadm){
         TelaAdm2 form;
         form.exec();
     }else{

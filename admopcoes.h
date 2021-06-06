@@ -15,6 +15,9 @@ public:
     explicit admOpcoes(QWidget *parent = nullptr);
     ~admOpcoes();
 
+private slots:
+    void on_salvar_clicked();
+
 private:
     Ui::admOpcoes *ui;
 };

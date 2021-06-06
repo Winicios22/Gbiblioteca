@@ -2,6 +2,7 @@
 #include "ui_telaadm2.h"
 #include "cadlivro.h"
 #include "teladepedidos.h"
+#include "admopcoes.h"
 
 TelaAdm2::TelaAdm2(QWidget *parent) :
     QDialog(parent),
@@ -26,5 +27,12 @@ void TelaAdm2::on_pushButton_2_clicked()
 {
     TelaDePedidos form2;
     form2.exec();
+}
+
+
+void TelaAdm2::on_pushButton_3_clicked()
+{
+    admOpcoes form3;
+    form3.exec();
 }
 
