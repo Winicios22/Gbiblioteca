@@ -18,7 +18,7 @@ public:
 private slots:
     void on_atualizarLivros_clicked();
 
-    void on_atualizarPedidos_clicked();
+   // void on_atualizarPedidos_clicked();
 
     void on_registrarPedido_clicked();
 

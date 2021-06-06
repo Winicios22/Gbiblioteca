@@ -32,7 +32,7 @@ void SelecaoDeLivros2::on_atualizarLivros_clicked()
 }
 
 
-void SelecaoDeLivros2::on_atualizarPedidos_clicked()
+/*void SelecaoDeLivros2::on_atualizarPedidos_clicked()
 {
     QString local="C:/Users/Winicios/Documents/Bear/Bear_Code/Gbiblioteca/arquivos do programa";
     QString nome="Pedidos.txt";
@@ -45,7 +45,7 @@ void SelecaoDeLivros2::on_atualizarPedidos_clicked()
     ui->telaPedidos->setPlainText(texto);
     arquivo.flush();
     arquivo.close();
-}
+}*/
 
 
 void SelecaoDeLivros2::on_registrarPedido_clicked()
