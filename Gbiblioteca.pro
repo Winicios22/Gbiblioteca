@@ -9,6 +9,7 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    admopcoes.cpp \
     cadlivro.cpp \
     cadusuario.cpp \
     main.cpp \
@@ -21,6 +22,7 @@ SOURCES += \
     telausuario.cpp
 
 HEADERS += \
+    admopcoes.h \
     cadlivro.h \
     cadusuario.h \
     mainwindow.h \
@@ -32,6 +34,7 @@ HEADERS += \
     telausuario.h
 
 FORMS += \
+    admopcoes.ui \
     cadlivro.ui \
     cadusuario.ui \
     mainwindow.ui \

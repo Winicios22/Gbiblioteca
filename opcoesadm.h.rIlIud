@@ -1,0 +1,22 @@
+#ifndef OPCOESADM_H
+#define OPCOESADM_H
+
+#include <QDialog>
+
+namespace Ui {
+class OpcoesAdm;
+}
+
+class OpcoesAdm : public QDialog
+{
+    Q_OBJECT
+
+public:
+    explicit OpcoesAdm(QWidget *parent = nullptr);
+    ~OpcoesAdm();
+
+private:
+    Ui::OpcoesAdm *ui;
+};
+
+#endif // OPCOESADM_H
